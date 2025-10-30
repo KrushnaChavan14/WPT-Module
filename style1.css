@@ -1,0 +1,50 @@
+*{
+    font-family: 'segoe ui light';
+}
+body{
+    background: linear-gradient(to right, #29B6F6, #E57373);
+
+}
+#login-container{
+    background-color: azure;
+    width: 550px;
+    height: 400px;
+    text-align: center;
+    margin: 130px auto;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.input-container{
+    margin-top: 20px;
+}
+.input-field{
+    width: 70%;
+    height: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-color:#E57373;
+}
+#login-button{
+    width: 100px;
+    height: 40px;
+    background-color: #E57373;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 300ms;
+
+}
+#login-button:hover{
+    background-color: white;
+    color: #E91E63;
+    border-width:1px;
+    border-style: solid;
+    border-color: #E57373;
+
+}
+#sign-up-link{
+    text-decoration: none;
+}

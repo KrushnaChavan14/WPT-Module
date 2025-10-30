@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[3,5,4,6,7,8,1];
+        let [a,,,,...rest]=arr;
+        // let a=arr[0];
+        // let b=arr[1];
+
+        console.log(a,rest);
+         let arr1=[0,5,2,6,7,8,10];
+         let obj={...arr1};
+         console.log(obj);
+
+         function sum(v1,v2,v3){
+            return v1+v2+v3;
+         }
+         console.log(sum(...arr1));
+
+         let obj2={
+            name:"Krushna",
+            company:"ABC",
+            address:"nagar"
+         }
+
+         console.log({...obj2,name:"Ajay"})
+
+    </script>
+</body>
+</html>

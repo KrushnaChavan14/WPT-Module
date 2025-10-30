@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class A{
+            constructor(){
+                this.x=10;
+                this.y=20;
+
+            }
+        }
+
+        class B extends A{
+
+            constructor(params) {
+                super();
+                this.z=23;
+                
+            }
+
+        }
+
+        var obj1=new B()
+            console.log(obj1.x,obj1.y,obj1.z);
+        
+    </script>
+</body>
+</html>
